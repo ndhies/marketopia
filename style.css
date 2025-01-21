@@ -1,3 +1,6 @@
+*{
+    font-family: "poppins";
+}
 .price img{
     width: 18%;
 }
@@ -6,4 +9,39 @@
 }
 .like img{
     width: 13%;
+}
+#foot{
+    background-image: url("img/Group 5.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    height: 72vh;
+}
+#hero {
+  background-image: url("img/Group 4.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+  height: 80vh;
+}
+.photo-container {
+  gap: 60px; 
+}
+
+.photo-container img {
+  width: 55vh; 
+  height: 80vh;
+  object-fit: cover; 
+}
+
+.photo-content-bawah {
+    gap: 60px; 
+}
+
+.photo-content-akhir img{
+    width: 55vh;
+}
+
+a {
+    text-decoration: none;
 }
