@@ -24,6 +24,7 @@
   background-size: auto;
   height: 80vh;
 }
+
 .photo-container {
   gap: 60px; 
 }
@@ -44,4 +45,54 @@
 
 a {
     text-decoration: none;
+}
+
+#foot {
+    background-image: url("img/Group 5.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+    height: 72vh;
+    padding: 12rem 0; 
+}
+
+.payment {
+    padding-right: 50px;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        height: 65vh;
+        padding-top: 10vh;
+    }
+
+    .navbar {
+        padding: -1rem; 
+    }
+
+    #foot {
+        padding: 7rem 0; 
+    }
+
+    .payment {
+        padding-right: 0px;
+    }
+
+    .photo-container {
+        gap: 40px; 
+    }
+      
+    .photo-container img {
+        width: 36vh; 
+        height: 50vh;
+        object-fit: cover; 
+    }
+      
+    .photo-content-bawah {
+        gap: 60px; 
+    }
+      
+    .photo-content-akhir img{
+        width: 35vh;
+    }
 }
